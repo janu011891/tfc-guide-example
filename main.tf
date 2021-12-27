@@ -1,6 +1,6 @@
 provider "aws" {
-  profile = "default"
-  region  = "us-west-2"
+  profile = "tftest"
+  region  = "ap-south-1"
 }
 
 data "aws_ami" "ubuntu" {
